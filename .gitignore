@@ -1,0 +1,25 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.vscode/
+
+# Dependencies and generated files
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local tooling and operating-system files
+.DS_Store
+Thumbs.db
+*.log
+
+# Office documents and presentations
+*.doc
+*.docx
+*.ppt
+*.pptx
